@@ -1,9 +1,40 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.png">
+            <img src="images/user-avatar.jpg" alt="User Avatar">
+        </div>
+        <section>
+            <div class="profile-info">
+                <img src="images/avatar-vangogh.jpg" alt="Van Gough avatar">
+                <h2>
+                    Vincent van Gough
+                    <span>Zudet, Netherlands</span>
+                </h2>
+            </div>
+            <div class="post">
+                <img src="images/post-vangogh.jpg" alt="">
+                <div class="post-info">
+                    <div class="post-icons">
+                        <img src="images/icon-heart.png" alt="">
+                        <img src="images/icon-comment.png" alt="">
+                        <img src="images/icon-dm.png" alt="">
+                    </div>
+                    <p><span id="likes"></span>Likes</p>
+                    <p class="caption" id="caption"></p>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
