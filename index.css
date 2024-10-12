@@ -4,18 +4,22 @@ html, body {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    background: rgb(165, 165, 165); 
 }
 
 .container{
     max-width: 600px;
-    outline: 1px solid red;
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header, .post{
     border-bottom: 2px solid rgb(154, 148, 148);
 }
 
@@ -34,7 +38,7 @@ html, body {
 }
 
 .logo{
-    width: 200px;
+    width: 40%;
 }
 
 .profile-info{
@@ -45,6 +49,11 @@ html, body {
 .icon{
     width: 35px;
     cursor: pointer;
+}
+
+.post-icons{
+    display: flex;
+    align-items: center;
 }
 
 .post-img{
@@ -64,3 +73,6 @@ h2 span{
     font-weight: 400;
 }
 
+p{
+    margin-bottom: 5px;
+}
